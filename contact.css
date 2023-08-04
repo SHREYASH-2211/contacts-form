@@ -1,0 +1,41 @@
+.container{
+    background-color: palegreen;
+    padding: 10px;
+    background-size: 100%;
+    border-radius: 10px;
+
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    margin: 5px;
+    font-size: 17px;
+    
+}
+*{
+    box-sizing: border-box;
+}
+main{
+    color: black;
+    background-color: #f2f2f2;
+    background-size: 100%;
+    padding: 8px;
+    border-radius: 10px;
+
+}
+
+input[type="text"],
+input[type="email"],
+textarea,
+select{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+input[type="submit"]{
+    background-color: chartreuse;
+    padding: 12px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
